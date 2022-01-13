@@ -3,7 +3,7 @@
 # This is a test
 ## This is a test
 [Link] (google.com)
-![Image](https://ucsdnews.ucsd.edu/news_uploads/Resized_Geisel_Library_08.31.jpg)	
+![Image](https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png)	
 > This is a test
 * This
 * Is
