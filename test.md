@@ -2,7 +2,7 @@
 **This is a test**	
 # This is a test
 ## This is a test
-[Link] (google.com)
+[google.com]
 ![Image](https://www.spalding.com/dw/image/v2/ABAH_PRD/on/demandware.static/-/Sites-masterCatalog_SPALDING/default/dwd1aedc60/images/hi-res/77015E__FRONT.jpg?sw=338&sh=426&sm=cut&sfrm=jpg)	
 > This is a test
 * This
