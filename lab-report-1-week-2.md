@@ -1,1 +1,1 @@
-![Image](https://adigudi.github.io/cse15l-lab-reports/Screen Shot 2022-01-13 at 12.20.07 PM.png)
+![Image](Screen%20Shot%202022-01-13%20at%2012.20.07%20PM.png)
