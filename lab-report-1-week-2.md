@@ -55,7 +55,7 @@ exit - logs out of linux
 * There are commands that you can utilize to make your code run faster
 * When you write a command after logging into the server, the command will automatically run it without having to type the command in a new line
 `ssh <username> "<command>`
-* You can also run multiple commands at the same time by using a semicolon to separate them' 
+* You can also run multiple commands at the same time by using a semicolon to separate them 
 `ssh <username> "javac ARandomFile.java; java ARandomFile"`
 * Below is an screenshot of mutiple commands running on the server:
 ![Image](/images/OptimizingRemoteRunning.png)
