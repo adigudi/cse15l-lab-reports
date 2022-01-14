@@ -33,8 +33,9 @@ exit - logs out of linux
 * Make sure you are on your computer's terminal and not the server
 `$ scp <file name> <user name>`
 * The command will prompt you to enter your TritonLink password, but once the file is fully transferred, it should look like this:
-* 
+![Image](/images/SCP.png)
 * Once the file is fully transferred, log back into the server and enter the `ls` command
 * You should be able to see the file in the server. Below is a screenshot of a file being successfully copied over from the client to the server:
-* 
- 
+![Image](/images/SCP-LS.png)
+---
+## Setting an SSH Key
