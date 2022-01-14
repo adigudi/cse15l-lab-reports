@@ -8,13 +8,14 @@
 ![Image](/images/VSCodeOpen.png)
 
 ## Remotely Connecting
-![Image](/images/RemoteConnect.png)
 * If you're using Windows, you will need to install OpenSSH here: [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * Look up your CSE15L account here: [Link](https://sdacs.ucsd.edu/~icc/index.php)
 * Open the terminal on VSCode and enter the following code, replacing "zz" with the letters of your course-specific account:
 `ssh cs15lwi22zz@ieng6.ucsd.edu`
 * Once it asks if you are sure you want to continue connecting, say yes
 * Enter your TritonLink password (you may need to enter the password multiple times)
+* Here's a screenshot of a successful connection to the server:
+![Image](/images/RemoteConnect.png)
 
 ## Trying Some Commands
 * Below is a list of commands you should know:
