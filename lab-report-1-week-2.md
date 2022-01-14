@@ -25,6 +25,9 @@ rm - deletes files
 mkdir - creates a directory
 exit - logs out of linux
 ```
-* Here's an example of using `ls -al`, which prints out every single file and directory that is running in the current directory, and shows which files that people can access and when it was last updated
+* Here's an example of using `ls -al`, which prints out every single file and directory that is running in the current directory, and shows which files that people can access and when it was last updated:
+![Image](/images/TryingSomeCommands.png)
+---
+## Moving Files with scp
 
  
