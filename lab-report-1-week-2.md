@@ -13,5 +13,16 @@
 * Open the terminal on VSCode and enter the following code below, replacing "zz" with the letters of your course-specific account
 `ssh cs15lwi22zz@ieng6.ucsd.edu`
 * Once it asks if you are sure you want to continue connecting, say yes
-* Enter your password (you may need to enter the password multiple times)
+* Enter your TritonLink password (you may need to enter the password multiple times)
+## Trying Some Commands
+* Below is a list of commands you should know:
+```
+cd - changes directory with a specific path
+cp - copys files
+ls - lists contents of a directory
+mv - moves files and/or renames files
+rm - deletes files
+mkdir - creates a directory
+exit - logs out of linux
+```
  
