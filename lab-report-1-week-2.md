@@ -9,8 +9,9 @@
 
 ## Remotely Connecting
 ![Image](/images/RemoteConnect.png)
+* If you're using Windows, you will need to install OpenSSH here: [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * Look up your CSE15L account here: [Link](https://sdacs.ucsd.edu/~icc/index.php)
-* Open the terminal on VSCode and enter the following code below, replacing "zz" with the letters of your course-specific account
+* Open the terminal on VSCode and enter the following code, replacing "zz" with the letters of your course-specific account:
 `ssh cs15lwi22zz@ieng6.ucsd.edu`
 * Once it asks if you are sure you want to continue connecting, say yes
 * Enter your TritonLink password (you may need to enter the password multiple times)
@@ -40,7 +41,7 @@ exit - logs out of linux
 ![Image](/images/SCP-LS.png)
 
 ## Setting an SSH Key
-* On client, run the following command line below:
+* On client, run the following command line:
 `ssh-keygen`
 * This command created two new files on your system; one the private key (in a file id_rsa) and other for the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer
 * When it asks for your password, **press enter instead of typing in your tritonlink password**. Doing this will allow you to log into the server without entering your tritonlink password, which can be tedious at times
