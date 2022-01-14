@@ -34,7 +34,9 @@ exit - logs out of linux
 ## Moving Files with scp
 * The scp code command copies a local file from your computer (the client), and transfers the copy to the server
 * Make sure you are on your computer's terminal and not the server
-`scp <file name> <user name>`
+```
+scp <file name> <user name>
+```
 * The command will prompt you to enter your TritonLink password, but once the file is fully transferred, it should look like this:
 ![Image](/images/SCP.png)
 * Once the file is fully transferred, log back into the server and enter the `ls` command
@@ -43,21 +45,31 @@ exit - logs out of linux
 
 ## Setting an SSH Key
 * On client, run the following command line:
-`ssh-keygen`
+```
+ssh-keygen
+```
 * This command created two new files on your system; one the private key (in a file id_rsa) and other for the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer
-* When it asks for your password, **press enter instead of typing in your tritonlink password**. Doing this will allow you to log into the server without entering your tritonlink password, which can be tedious at times
+* When it asks for your password, **press enter instead of typing in your tritonlink password**. Doing this will allow you to log into the server without entering your TritonLink password, which can be tedious at times
 * Now we will copy the public key into a .ssh directory. Log back into the server and type the following command:
-`mkdir .ssh`
+```
+mkdir .ssh
+```
 * Log back into the client and copy the following command:
-`scp <key path> <username>:~/.ssh/authorized_keys`
+```
+scp <key path> <username>:~/.ssh/authorized_keys
+```
 * You should now be able to log onto the server without your password. Heres an example below:
 ![Image](/images/SSHKey.png)
 
 ## Optimizing Remote Running
 * There are commands that you can utilize to make your code run faster
 * When you write a command after logging into the server, the command will automatically run it without having to type the command in a new line
-`ssh <username> "<command>"`
-* You can also run multiple commands at the same time by using a semicolon to separate them 
-`ssh <username> "javac ARandomFile.java; java ARandomFile"`
+```
+ssh <username> "<command>"
+```
+* You can also run multiple commands at the same time by using a semicolon to separate them
+```
+ssh <username> "javac ARandomFile.java; java ARandomFile"
+```
 * Below is an screenshot of mutiple commands running on the server:
 ![Image](/images/OptimizingRemoteRunning.png)
