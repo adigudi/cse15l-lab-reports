@@ -48,4 +48,6 @@ exit - logs out of linux
 * Log back into the client and copy the following command:
 `scp <key path> <username>:~/.ssh/authorized_keys`
 * You should now be able to log onto the server without your password. Heres an example below:
-![Image]()
+![Image](/images/SSHKey.png)
+---
+## Optimizing Remote Running
