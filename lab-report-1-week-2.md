@@ -57,3 +57,5 @@ exit - logs out of linux
 `ssh <username> "<command>`
 * You can also run multiple commands at the same time by using a semicolon to separate them' 
 `ssh <username> "javac ARandomFile.java; java ARandomFile"`
+* Below is an screenshot of mutiple commands running on the server:
+![Image](/images/OptimizingRemoteRunning.png)
