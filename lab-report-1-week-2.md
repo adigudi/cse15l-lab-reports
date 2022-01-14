@@ -9,3 +9,8 @@
 ---
 ## Remotely Connecting
 ![Image](/images/RemoteConnect.png)
+* Look up your CSE15L account here: [Link](https://sdacs.ucsd.edu/~icc/index.php)
+* Open the terminal on VSCode and enter "ssh cs15lwi22zz@ieng6.ucsd.edu", replacing "zz" with the letters of your course-specific account
+* Once it asks if you are sure you want to continue connecting, say yes
+* Enter your password (you may need to enter the password multiple times)
+ 
