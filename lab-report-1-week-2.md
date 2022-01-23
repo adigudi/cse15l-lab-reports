@@ -66,7 +66,6 @@ scp <key path> <username>:~/.ssh/authorized_keys
 ## Optimizing Remote Running
 * There are commands that you can utilize to make your code run faster
 * When you write a command after logging into the server, the command will automatically run it without having to type the command in a new line
-* Although the line of code is long when you write it the first time, it will only take two keystrokes to run the code: just pressing the up key and pressing enter
 ```
 ssh <username> "<command>"
 ```
@@ -74,5 +73,7 @@ ssh <username> "<command>"
 ```
 ssh <username> "javac ARandomFile.java; java ARandomFile"
 ```
+* Although the line of code is long when you write it the first time, it will only take two keystrokes to run the code: just pressing the up key and pressing enter
+* This is much faster than logging into the server and running the file on there and then logging off, which would take over 10 keystrokes
 * Below is an screenshot of mutiple commands running on the server:
 ![Image](/images/OptimizingRemoteRunning.png)
