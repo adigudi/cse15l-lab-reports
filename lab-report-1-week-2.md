@@ -66,6 +66,7 @@ scp <key path> <username>:~/.ssh/authorized_keys
 ## Optimizing Remote Running
 * There are commands that you can utilize to make your code run faster
 * When you write a command after logging into the server, the command will automatically run it without having to type the command in a new line
+* Although the line of code is long when you write it the first time, it will only take two keystrokes to run the code: just pressing the up key and pressing enter
 ```
 ssh <username> "<command>"
 ```
