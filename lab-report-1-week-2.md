@@ -70,6 +70,7 @@ scp <key path> <username>:~/.ssh/authorized_keys
 ssh <username> "<command>"
 ```
 * You can also run multiple commands at the same time by using a semicolon to separate them
+* The following copies the client’s file and transfers the copy to the server, compiles it on the server, and runs it on the server
 ```
 ssh <username> "javac ARandomFile.java; java ARandomFile"
 ```
