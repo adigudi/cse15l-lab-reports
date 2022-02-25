@@ -13,3 +13,5 @@
 ```
 ### Snippet #1 on VSCode
 ![Image](/images/snippet1.png)
+- According to the VSCode example, we expect the method `getLinks` to return a list that contains ```"`google.com", "google.com", "ucsd.edu"```
+- 
