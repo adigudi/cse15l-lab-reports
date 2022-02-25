@@ -1,5 +1,7 @@
 # Lab Report #4 - Week 8
 ---
+- [My Group's Implementation](https://github.com/ocboogie/markdown-parse)
+- [Implementation our group reviewed](https://github.com/kyledvu/markdown-parse)
 
 ## Snippet #1
 
