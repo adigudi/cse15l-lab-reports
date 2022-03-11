@@ -57,7 +57,7 @@ if (potentialLink.indexOf(" ") == -1 && potentialLink.indexOf("\n") == -1) {
 * Joe's implemenation output: `[train.jpg]` 
 * The correct output would be ours because we are not supposed to include images as links
 
-## Bug
+### Bug
 * The example implementation doesn't check if the character before `[` is `!`
 * If it is, then it shouldn't be a link and it shouldn't be in the output
 ```
